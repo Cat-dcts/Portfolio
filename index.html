@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cathy Descoutures - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="main-nav">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="terminal-prompt">root@cathy:~$</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Accueil</a></li>
+                <li><a href="experiences.html">Expériences</a></li>
+                <li><a href="competences.html">Compétences</a></li>
+                <li><a href="passions.html">Passions</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="terminal-window">
+                <div class="terminal-header">
+                    <span class="terminal-button close"></span>
+                    <span class="terminal-button minimize"></span>
+                    <span class="terminal-button maximize"></span>
+                    <span class="terminal-title">command_center.sh</span>
+                </div>
+                <div class="terminal-body">
+                    <p><span class="prompt">cathy@network-ops</span>:<span class="path">~</span>$ whoami</p>
+                    <p class="output">Cathy Descoutures</p>
+                    <p><span class="prompt">cathy@network-ops</span>:<span class="path">~</span>$ cat profile.txt</p>
+                    <div class="output">
+                        <p>▸ Étudiante BUT3 Informatique - Parcours A</p>
+                        <p>▸ Alternante Administratrice infrastructure @ SPIE (AIA Clermont)</p>
+                        <p>▸ Spécialiste Réseau</p>
+                    </div>
+                    <p><span class="prompt">cathy@network-ops</span>:<span class="path">~</span>$ status --check</p>
+                    <p class="output success">✓ SYSTÈME OPÉRATIONNEL</p>
+                    <p class="typing-cursor">█</p>
+                </div>
+            </div>
+        </div>
+        <div class="network-bg">
+            <div class="node node-1"></div>
+            <div class="node node-2"></div>
+            <div class="node node-3"></div>
+            <div class="node node-4"></div>
+            <div class="node node-5"></div>
+        </div>
+    </section>
+
+    <!-- Quick Access Cards -->
+    <section class="quick-access">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-icon">///</span> Navigation Rapide
+            </h2>
+            <div class="cards-grid">
+                <a href="experiences.html" class="access-card card-military">
+                    <div class="card-icon custom-icon icon-target"></div>
+                    <h3>Expériences</h3>
+                    <p>Parcours professionnel et académique</p>
+                    <div class="card-status">
+                        <span class="status-indicator"></span>
+                        <span>MISSION ACTIVE</span>
+                    </div>
+                </a>
+
+                <a href="competences.html" class="access-card card-network">
+                    <div class="card-icon custom-icon icon-lock"></div>
+                    <h3>Compétences</h3>
+                    <p>Expertise réseau & cybersécurité</p>
+                    <div class="card-status">
+                        <span class="status-indicator"></span>
+                        <span>SYSTÈME SÉCURISÉ</span>
+                    </div>
+                </a>
+
+                <a href="passions.html" class="access-card card-football">
+                    <div class="card-icon custom-icon icon-football"></div>
+                    <h3>Passions</h3>
+                    <p>Football, randonnée & plus</p>
+                    <div class="card-status">
+                        <span class="status-indicator"></span>
+                        <span>TERRAIN PRÊT</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <p>PHOTO<br /><img src="moi.jpeg" alt="Description de la photo"></p>
+                    </div>
+                    <div class="image-border"></div>
+                </div>
+                <div class="about-content">
+                    <h2>À propos</h2>
+                    <p class="about-intro">
+                        Passionnée par les réseaux et la cybersécurité, je suis actuellement en
+                        <strong>BUT3 Informatique Parcours A</strong>, en alternance chez <strong>SPIE</strong>
+                        au sein de l'AIA de Clermont-Ferrand.
+                    </p>
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <div class="stat-number">3</div>
+                            <div class="stat-label">Années d'études</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">5</div>
+                            <div class="stat-label">Projets réalisés</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">100%</div>
+                            <div class="stat-label">Motivation</div>
+                        </div>
+                    </div>
+                    <div class="skills-tags">
+                        <span class="tag">Réseau</span>
+                        <span class="tag">Cybersécurité</span>
+                        <span class="tag">Administration Système</span>
+                        <span class="tag">Datacenter</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-icon">///</span> Me Contacter
+            </h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <span class="contact-icon custom-icon icon-email"></span>
+                        <div>
+                            <h4>Email</h4>
+                            <p class="placeholder-text">cathy.descoutures@etu.unilim.fr</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon custom-icon icon-briefcase"></span>
+                        <div>
+                            <h4>LinkedIn</h4>
+                            <p class="placeholder-text">Cathy Descoutures</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon custom-icon icon-code"></span>
+                        <div>
+                            <h4>GitHub</h4>
+                            <p class="placeholder-text">Cat-dcts</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2025 Cathy Descoutures - Tous droits réservés</p>
+            <p class="footer-tagline">« Connecter, Sécuriser, Innover »</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
